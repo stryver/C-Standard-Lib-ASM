@@ -5,7 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 set(C_SOURCES main.c)
 set(ASM_SOURCES asm/my_strlen.asm
-                asm/my_strcpy.asm)
+                asm/my_strcpy.asm
+                asm/my_strcat.asm)
 
 if(APPLE)
     set(CMAKE_ASM_NASM_OBJECT_FORMAT macho64)
